@@ -1,12 +1,13 @@
 {
   "name": "electron-app",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.1.0",
+  "description": "Tutorial electron app.",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
   },
-  "author": "",
+  "author": "hafdon",
   "license": "ISC",
   "dependencies": {
     "electron": "^11.2.3"
